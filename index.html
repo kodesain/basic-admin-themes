@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>KodeSain | Free Code Tutorials</title>
+
+        <!-- fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600&amp;subset=latin-ext">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2018.3.1017/styles/kendo.common-material.min.css">
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2018.3.1017/styles/kendo.rtl.min.css">
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2018.3.1017/styles/kendo.material.min.css">
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2018.3.1017/styles/kendo.material.mobile.min.css">
+        <link rel="stylesheet" href="css/layout.css">
+
+        <!-- javascript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+        <script src="https://kendo.cdn.telerik.com/2018.3.1017/js/kendo.all.min.js"></script>
+        <script src="https://kendo.cdn.telerik.com/2018.3.1017/js/kendo.timezones.min.js"></script>
+        <script src="js/layout.js"></script>
+    </head>
+    <body>
+        <header class="ks-header">
+            <div class="ks-header-wrapper">
+                <div class="ks-toggle-sidebar ks-material-button">
+                    <i class="material-icons ks-open-icon">&#xE5D2;</i>
+                    <i class="material-icons ks-close-icon">close</i>
+                </div>
+
+                <div class="ks-logo-box">
+                    <h1>
+                        <a href="index.html" class="ks-logo">
+                            <img class="ks-logo-mobile" src="image/logo-mobile.png" width="27" height="27">
+                            <img class="ks-logo-desktop" src="image/logo.png" width="185" height="27">
+                        </a>
+                    </h1>
+                </div>
+
+                <div class="ks-header-menu">
+                    <ul class="ks-header-navigation">
+                        <li>
+                            <a href="#" class="ks-material-button ks-submenu-toggle">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#" class="ks-material-button ks-submenu-toggle">QUICK MENU <i class="material-icons">&#xE313;</i></a>
+                            <div class="ks-header-submenu">
+                                <ul>
+                                    <li><a href="fixed-sidebar.html">Fixed Sidebar</a></li>
+                                    <li><a href="index.html">Hide Sidebar</a></li>
+                                    <li><a href="components.html">Components</a></li>
+                                    <li><a href="login.html">User Login</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="ks-header-right ks-with-seperator">
+                    <ul class="ks-header-navigation">
+                        <li>
+                            <a href="#" class="ks-material-button ks-search-toggle"><i class="material-icons">&#xE8B6;</i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="ks-material-button ks-submenu-toggle"><i class="material-icons">&#xE7F4;</i></a>
+                            <div class="ks-header-submenu ks-notify-list">
+                                <div class="ks-notify-header">
+                                    <span class="ks-notify-text-top">9 New</span>
+                                    <span class="ks-notify-text">User Notifications</span>
+                                </div>
+                                <div class="ks-notify-tab">
+                                    <ul class="nav">
+                                        <li><a href="#1a" data-toggle="tab" class="active">Alerts</a></li>
+                                        <li><a href="#2a" data-toggle="tab">Events</a></li>
+                                        <li><a href="#3a" data-toggle="tab">Logs</a></li>
+                                    </ul>
+
+                                    <div class="tab-content clearfix">
+                                        <div class="tab-pane active" id="1a">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                        </div>
+                                        <div class="tab-pane" id="2a">
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                        </div>
+                                        <div class="tab-pane" id="3a">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="ks-material-button ks-submenu-toggle"><span class="ks-user-avatar"><img src="image/user-avatar.png" width="32" height="32"></span></a>
+                            <div class="ks-header-submenu">
+                                <ul>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Activity</a></li>
+                                    <li><a href="#">Messages</a></li>
+                                    <li><a href="#">Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="ks-hide-on-mobile">
+                            <a href="#" class="ks-material-button"><i class="material-icons">&#xE42A;</i></a>
+                            <div class="ks-header-submenu ks-extra-menu">
+                                <a href="#">
+                                    <i class="material-icons">&#xE030;</i>
+                                    <span>Musics</span>
+                                </a>
+                                <a href="#">
+                                    <i class="material-icons">&#xE04A;</i>
+                                    <span>Videos</span>
+                                </a>
+                                <a href="#">
+                                    <i class="material-icons">&#xE158;</i>
+                                    <span>Emails</span>
+                                </a>
+                                <a href="#">
+                                    <i class="material-icons">&#xE160;</i>
+                                    <span>Reports</span>
+                                </a>
+                                <a href="#">
+                                    <i class="material-icons">&#xE24E;</i>
+                                    <span>Persons</span>
+                                </a>
+                                <a href="#">
+                                    <i class="material-icons">&#xE251;</i>
+                                    <span>Pictures</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="ks-search-bar">
+                    <form class="ks-search-form">
+                        <div class="ks-search-input-wrapper">
+                            <input type="text" name="qq" placeholder="search something..." class="ks-search-input">
+                            <button type="submit" name="search" class="ks-search-submit"><i class="material-icons">&#xE5C8;</i></button>
+                        </div>
+                        <span class="ks-search-close ks-search-toggle">
+                            <i class="material-icons">&#xE5CD;</i>
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <div class="ks-sidebar">
+            <div class="ks-sidebar-wrapper">
+                <div class="ks-sidebar-logo">
+                    <a href="#"><img src="image/logo-mono.png" width="122" height="27"></a>
+                    <div class="ks-sidebar-pin-button" title="Pin/Unpin Menu">
+                        <i class="material-icons ks-fixed-icon">gps_fixed</i>
+                        <i class="material-icons ks-not-fixed-icon">gps_not_fixed</i>
+                    </div>
+                    <div class="ks-sidebar-toggle-button">
+                        <i class="material-icons">&#xE317;</i>
+                    </div>
+                </div>
+
+                <nav class="ks-sidebar-navi">
+                    <ul>
+                        <li>
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE88A;</i></span>
+                                <span class="ks-label">Dashborad</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE871;</i></span>
+                                <span class="ks-label">Layouts</span>
+                                <span class="ks-arrow-icon"><i class="material-icons">&#xE313;</i></span>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="#" class="ks-material-button"><span class="ks-label">Boxed Layout</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ks-material-button"><span class="ks-label">Full Layout</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE89B;</i></span>
+                                <span class="ks-label">Reports</span>
+                            </a>
+                        </li>
+                        <li class="show">
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE875;</i></span>
+                                <span class="ks-label">Components</span>
+                                <span class="ks-arrow-icon"><i class="material-icons">&#xE313;</i></span>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="#" class="ks-material-button"><span class="ks-label">Datatables</span></a>
+                                </li>
+                                <li class="show">
+                                    <a href="#" class="ks-material-button"><span class="ks-label">Widgets</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ks-material-button"><span class="ks-label">Calendar</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ks-material-button"><span class="ks-label">Portlets</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ks-material-button"><span class="ks-label">Popover</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ks-material-button"><span class="ks-label">Tooltip</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE0BE;</i></span>
+                                <span class="ks-label">Mailbox</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE8F7;</i></span>
+                                <span class="ks-label">Invoices</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE8AB;</i></span>
+                                <span class="ks-label">Plugins</span>
+                            </a>
+                        </li>
+                        <li class="ks-seperate"></li>
+                        <li>
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE39E;</i></span>
+                                <span class="ks-label">Buttons</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE3E0;</i></span>
+                                <span class="ks-label">Portlets</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE3DC;</i></span>
+                                <span class="ks-label">Timeline</span>
+                            </a>
+                        </li>
+                        <li class="ks-seperate"></li>
+                        <li>
+                            <a href="#" class="ks-material-button">
+                                <span class="ks-icon"><i class="material-icons">&#xE3D1;</i></span>
+                                <span class="ks-label">Multi Level</span>
+                                <span class="ks-arrow-icon"><i class="material-icons">&#xE313;</i></span>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="#" class="ks-material-button"><span class="ks-label">Level 1.1</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ks-material-button">
+                                        <span class="ks-label">Level 1.2</span>
+                                        <span class="ks-arrow-icon"><i class="material-icons">&#xE313;</i></span>
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="ks-material-button"><span class="ks-label">Level 1.2.1</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="ks-material-button"><span class="ks-label">Level 1.2.2</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="ks-material-button"><span class="ks-label">Level 1.2.3</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="ks-material-button"><span class="ks-label">Level 1.3</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <main class="ks-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <img src="image/designing-with-code.jpg" class="img-fluid mb-3" alt="Responsive image">
+                        <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        <h3>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3>
+                        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+                        <h3>1914 translation by H. Rackham</h3>
+                        <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+                        <h3>Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3>
+                        <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+                        <h3>1914 translation by H. Rackham</h3>
+                        <p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="ks-overlay"></div>
+
+        <script>
+            $(document).ready(function () {
+                // $sss;
+            });
+        </script>
+    </body>
+</html>
