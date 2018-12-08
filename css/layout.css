@@ -1,12 +1,12 @@
 /* 1. Fixed Body style */
-.ks-body-fixed {
+.app-body-fixed {
     position: fixed;
     width: 100%;
     height: 100%;
 }
 
 /* 2. Header */
-.ks-header {
+.app-header {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -26,13 +26,13 @@
     -o-transition: top 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
     transition: top 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
 }
-.ks-header a {
+.app-header a {
     color: #4A569D;
 }
-.ks-header.hide {
+.app-header.hide {
     top: -60px;
 }
-.ks-toggle-sidebar {
+.app-toggle-sidebar {
     width: 60px;
     height: 60px;
     text-align: center;
@@ -41,7 +41,7 @@
     background-color: rgba(0,0,0,0.05);
     float: left;
 }
-.ks-toggle-sidebar i {
+.app-toggle-sidebar i {
     position: absolute;
     left: 18px;
     top: 18px;
@@ -50,44 +50,44 @@
     -o-transition: transform 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
     transition: transform 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
 }
-.ks-toggle-sidebar .ks-open-icon {
+.app-toggle-sidebar .app-open-icon {
     transform: scale(1);
 }
-.ks-toggle-sidebar .ks-close-icon {
+.app-toggle-sidebar .app-close-icon {
     transform: scale(0);
 }
-.ks-opened-sidebar .ks-toggle-sidebar .ks-open-icon {
+.app-opened-sidebar .app-toggle-sidebar .app-open-icon {
     transform: scale(0);
 }
-.ks-opened-sidebar .ks-toggle-sidebar .ks-close-icon {
+.app-opened-sidebar .app-toggle-sidebar .app-close-icon {
     transform: scale(1);
 }
-.ks-logo-box {
+.app-logo-box {
     height: 27px;
     display: block;
     float: left;
     margin: 14px;
 }
-.ks-logo-box h1 {
+.app-logo-box h1 {
     margin: 0;
     padding: 0;
     display: inline-block;
 }
-.ks-logo {
+.app-logo {
     font-size: 18px;
     color: #FFF;
 }
-.ks-logo img {
+.app-logo img {
     display: block;
     float: left;
 }
-.ks-logo .ks-logo-mobile {
+.app-logo .app-logo-mobile {
     display: none;
 }
-.ks-logo .ks-logo-desktop {
+.app-logo .app-logo-desktop {
     display: block;
 }
-.ks-logo .ks-logo-name {
+.app-logo .app-logo-name {
     display: inline-block;
     float: left;
     font-weight: 400;
@@ -96,20 +96,20 @@
     padding-left: 10px;
     border-left: solid 1px #FFF;
 }
-.ks-header-menu {
+.app-header-menu {
     display: inline-block;
     float: left;
 }
-.ks-header-navigation, .ks-header-navigation ul {
+.app-header-navigation, .app-header-navigation ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.ks-header-navigation > li {
+.app-header-navigation > li {
     float: left;
     position: relative;
 }
-.ks-header-navigation > li > a {
+.app-header-navigation > li > a {
     display: table-cell !important;
     vertical-align: middle;
     height: 60px;
@@ -119,15 +119,15 @@
     padding: 0 15px;
     text-decoration: none;
 }
-.ks-header-navigation > li > a .material-icons {
+.app-header-navigation > li > a .material-icons {
     vertical-align: middle;
     top: -1px;
     position: relative;
 }
-.ks-header-navigation > li > a.active {
+.app-header-navigation > li > a.active {
     box-shadow: inset 0 -2px 0 0 #fff;
 }
-.ks-header-submenu {
+.app-header-submenu {
     background-color: #fff;
     position: absolute;
     top: 100%;
@@ -150,10 +150,10 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0, M12=0, M21=0, M22=0, SizingMethod='auto expand')";
     filter: progid:DXImageTransform.Microsoft.Matrix( M11=0, M12=0, M21=0, M22=0, SizingMethod='auto expand');
 }
-.ks-header-submenu.ks-extra-menu {
+.app-header-submenu.app-extra-menu {
     width: 280px;
 }
-.ks-extra-menu a {
+.app-extra-menu a {
     display: block;
     width: 50%;
     float: left;
@@ -163,103 +163,103 @@
     padding: 15px 0;
     color: #333 !important;
 }
-.ks-extra-menu a:hover {
+.app-extra-menu a:hover {
     background-color: #f2f2f2;
     text-decoration: none;
 }
-.ks-extra-menu a span {
+.app-extra-menu a span {
     display: block;
 }
-.ks-extra-menu a:nth-child(odd) {
+.app-extra-menu a:nth-child(odd) {
     border-right: solid 1px #EEE;
 }
-.ks-header-submenu.ks-notify-list {
+.app-header-submenu.app-notify-list {
     width: 360px;
 }
-.ks-notify-header {
+.app-notify-header {
     width: 100%;
     padding: 15px 10px;
     color: #333;
     background-color: #f4f4f4;
 }
-.ks-notify-header .ks-notify-text-top {
+.app-notify-header .app-notify-text-top {
     display: block;
     font-size: 20px;
     text-align: center;
 }
-.ks-notify-header .ks-notify-text {
+.app-notify-header .app-notify-text {
     display: block;
     text-align: center;
     font-size: 15px;
 }
-.ks-notify-tab {
+.app-notify-tab {
     padding: 15px;
 }
-.ks-notify-tab .nav {
+.app-notify-tab .nav {
     margin-bottom: 15px;
     border-bottom: solid 1px #eee;
 }
-.ks-notify-tab .nav li {
+.app-notify-tab .nav li {
     display: inline-block;
     float: left;
     width: auto;
     border-left: none !important;
     margin-right: 20px;
 }
-.ks-notify-tab .nav li a:hover {
+.app-notify-tab .nav li a:hover {
     background-color: transparent;
     border-bottom: solid 1px #9D50BB;
 }
-.ks-notify-tab .nav li a {
+.app-notify-tab .nav li a {
     padding: 6px 0;
     font-weight: 500;
     font-size: 16px;
 }
-.ks-notify-tab .nav li a.active {
+.app-notify-tab .nav li a.active {
     border-bottom: solid 1px #9D50BB;
     color: #9D50BB;
 }
-.ks-header-submenu ul li {
+.app-header-submenu ul li {
     display: block;
     width: 100%;
 }
-.ks-header-submenu ul li a {
+.app-header-submenu ul li a {
     display: block;
     text-decoration: none;
     padding: 10px 15px;
     color: #444;
     white-space: nowrap;
 }
-.ks-header-submenu ul li a:hover {
+.app-header-submenu ul li a:hover {
     background-color: #EEE;
 }
-.ks-header-submenu.active {
+.app-header-submenu.active {
     -webkit-transform: scale(1);
     -khtml-transform: scale(1);
     transform: scale(1);
     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, SizingMethod='auto expand')";
     filter: progid:DXImageTransform.Microsoft.Matrix( M11=1, M12=0, M21=0, M22=1, SizingMethod='auto expand');
 }
-.ks-header-right {
+.app-header-right {
     display: inline-block;
     float: right;
 }
-.ks-header-right.ks-with-seperator .ks-header-navigation li {
+.app-header-right.app-with-seperator .app-header-navigation li {
     border-left: solid 1px rgba(0,0,0,0.05);
 }
-.ks-header-right .ks-header-navigation .ks-header-submenu {
+.app-header-right .app-header-navigation .app-header-submenu {
     transform-origin: right top 0px;
     left: auto;
     right: 0;
 }
-.ks-user-avatar {
+.app-user-avatar {
     display: block;
     width: 32px;
     height: 32px;
     border-radius: 100%;
     overflow: hidden;
 }
-.ks-search-bar {
+.app-search-bar {
     position: absolute;
     width: 100%;
     height: 60px;
@@ -273,10 +273,10 @@
     -o-transition: top 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
     transition: top 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
 }
-.ks-search-bar.active {
+.app-search-bar.active {
     top: 0;
 }
-.ks-search-form {
+.app-search-form {
     max-width: 1160px;
     width: 100%;
     height: 40px;
@@ -285,7 +285,7 @@
     font-size: 14px;
     position: relative;
 }
-.ks-search-input-wrapper {
+.app-search-input-wrapper {
     left: 20px;
     top: 0;
     right: 60px;
@@ -293,7 +293,7 @@
     height: 40px;
     position: absolute;
 }
-.ks-search-input {
+.app-search-input {
     width: 100%;
     height: 40px;
     background-color: rgba(255,255,255,.2);
@@ -305,20 +305,20 @@
     font-size: 14px;
     font-family: inherit;
 }
-.ks-search-input::placeholder {
+.app-search-input::placeholder {
     color: #FFF;
     opacity: .5;
 }
-.ks-search-input:-ms-input-placeholder {
+.app-search-input:-ms-input-placeholder {
     color: #FFF;
 }
-.ks-search-input::-ms-input-placeholder {
+.app-search-input::-ms-input-placeholder {
     color: #FFF;
 }
-.ks-search-input:focus {
+.app-search-input:focus {
     background-color: rgba(255,255,255,.3);
 }
-.ks-search-submit {
+.app-search-submit {
     position: absolute;
     right: 0;
     top: 0;
@@ -332,10 +332,10 @@
     cursor: pointer;
     outline: none;
 }
-.ks-search-submit:hover {
+.app-search-submit:hover {
     background-color: rgba(255,255,255,.1);
 }
-.ks-search-close {
+.app-search-close {
     width: 40px;
     height: 40px;
     position: absolute;
@@ -350,7 +350,7 @@
 }
 
 /* 3. Sidebar */
-.ks-sidebar {
+.app-sidebar {
     position: fixed;
     width: 300px;
     top: 0;
@@ -370,10 +370,10 @@
     transition: all 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
     color: #514A9D;
 }
-.ks-opened-sidebar .ks-sidebar {
+.app-opened-sidebar .app-sidebar {
     left: 0;
 }
-.ks-sidebar-wrapper {
+.app-sidebar-wrapper {
     position: absolute;
     left: 0;
     top: 0;
@@ -382,43 +382,43 @@
     overflow-y: auto;
     padding-bottom: 60px;
 }
-.ks-sidebar-wrapper::-webkit-scrollbar {
+.app-sidebar-wrapper::-webkit-scrollbar {
     width: 6px;
 }
-.ks-sidebar-wrapper::-webkit-scrollbar-thumb {
+.app-sidebar-wrapper::-webkit-scrollbar-thumb {
     background: #4A569D;
 }
-.ks-sidebar-wrapper::-webkit-scrollbar-track {
+.app-sidebar-wrapper::-webkit-scrollbar-track {
     background: #455a64;
 }
-.ks-sidebar-logo {
+.app-sidebar-logo {
     width: 100%;
     height: 60px;
     border-bottom: solid 1px #cfd8dc;
 }
-.ks-sidebar-logo a {
+.app-sidebar-logo a {
     display: inline-block;
     float: left;
     margin: 16px 24px;
 }
-.ks-sidebar-logo a img {
+.app-sidebar-logo a img {
     display: block;
 }
-.ks-sidebar-toggle-button {
+.app-sidebar-toggle-button {
     width: 24px;
     height: 24px;
     float: right;
     margin: 18px;
     cursor: pointer;
 }
-.ks-sidebar-pin-button {
+.app-sidebar-pin-button {
     width: 24px;
     height: 24px;
     float: right;
     margin: 18px;
     cursor: pointer;
 }
-.ks-sidebar-pin-button i {
+.app-sidebar-pin-button i {
     position: absolute;
     transform: scale(1);
     -webkit-transition: transform 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -426,38 +426,38 @@
     -o-transition: transform 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
     transition: transform 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
 }
-.ks-sidebar-pin-button .ks-fixed-icon {
+.app-sidebar-pin-button .app-fixed-icon {
     transform: scale(0);
 }
-.ks-pinned-sidebar .ks-sidebar-pin-button .ks-fixed-icon {
+.app-pinned-sidebar .app-sidebar-pin-button .app-fixed-icon {
     transform: scale(1);
 }
-.ks-pinned-sidebar .ks-sidebar-pin-button .ks-not-fixed-icon {
+.app-pinned-sidebar .app-sidebar-pin-button .app-not-fixed-icon {
     transform: scale(0);
 }
-.ks-sidebar-navi ul {
+.app-sidebar-navi ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-.ks-sidebar-navi > ul ul {
+.app-sidebar-navi > ul ul {
     display: none;
 }
-.ks-sidebar-navi .inner {
+.app-sidebar-navi .inner {
     overflow: hidden;
     display: none;
 }
-.ks-sidebar-navi .ks-seperate {
+.app-sidebar-navi .app-seperate {
     width: 100%;
     height: 1px;
     background-color: #cfd8dc;
 }
-.ks-sidebar-navi li {
+.app-sidebar-navi li {
     margin: 2px 0;
     display: block;
     width: 100%;
 }
-.ks-sidebar-navi a {
+.app-sidebar-navi a {
     line-height: 50px;
     text-decoration: none;
     height: 50px;
@@ -467,19 +467,19 @@
     display: table;
     width: 100%;
 }
-.ks-sidebar-navi a:hover {
+.app-sidebar-navi a:hover {
     background-color: #EEE;
 }
-.ks-sidebar-navi a > span {
+.app-sidebar-navi a > span {
     display: table-cell;
 }
-.ks-sidebar-navi a > span.ks-icon {
+.app-sidebar-navi a > span.app-icon {
     width: 40px;
     height: 50px;
     line-height: 0;
     vertical-align: middle;
 }
-.ks-sidebar-navi a > span.ks-arrow-icon {
+.app-sidebar-navi a > span.app-arrow-icon {
     width: 24px;
     height: 50px;
     line-height: 0;
@@ -489,21 +489,21 @@
     -o-transition: transform 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
     transition: transform 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
 }
-.ks-sidebar-navi > ul > li > ul > li > a {
+.app-sidebar-navi > ul > li > ul > li > a {
     padding: 0 20px 0 60px;
     line-height: 40px;
     height: 40px;
     font-size: 95%;
 }
-.ks-sidebar-navi > ul > li > ul > li > a span.ks-arrow-icon {
+.app-sidebar-navi > ul > li > ul > li > a span.app-arrow-icon {
     height: 40px;
 }
-.ks-sidebar-navi > ul > li > ul > li > ul > li > a {
+.app-sidebar-navi > ul > li > ul > li > ul > li > a {
     padding: 0 20px 0 80px;
     line-height: 40px;
     height: 40px;
 }
-.ks-sidebar-navi ul li.show > a > .ks-arrow-icon {
+.app-sidebar-navi ul li.show > a > .app-arrow-icon {
     -ms-transform: rotate(180deg); /* IE 9 */
     -ms-transform-origin: 50% 50%; /* IE 9 */
     -webkit-transform: rotate(180deg); /* Safari 3-8 */
@@ -511,16 +511,16 @@
     transform: rotate(180deg);
     transform-origin: 50% 50%;
 }
-.ks-sidebar-navi ul li.show > a {
+.app-sidebar-navi ul li.show > a {
     background-color: #EEEEEE;
 }
-.ks-sidebar-navi>ul>li>ul>li.show > a {
+.app-sidebar-navi>ul>li>ul>li.show > a {
     background-color: #f4f4f4;
 }
-.ks-sidebar-navi ul li.show > a {
+.app-sidebar-navi ul li.show > a {
     color: #4A569D;
 }
-.ks-overlay {
+.app-overlay {
     position: fixed;
     left: 0;
     top: 0;
@@ -532,28 +532,28 @@
     display: none;
 }
 /* pinned sidebar styles */
-.ks-opened-sidebar .ks-overlay {
+.app-opened-sidebar .app-overlay {
     display: block;
 }
-.ks-pinned-sidebar .ks-overlay {
+.app-pinned-sidebar .app-overlay {
     display: none !important;
 }
-.ks-pinned-sidebar .ks-sidebar {
+.app-pinned-sidebar .app-sidebar {
     top: 60px;
 }
-.ks-pinned-sidebar.ks-opened-sidebar .ks-wrapper {
+.app-pinned-sidebar.app-opened-sidebar .app-wrapper {
     margin-left: 300px;
 }
-.ks-pinned-sidebar .ks-wrapper {
+.app-pinned-sidebar .app-wrapper {
     margin-left: 0;
 }
 
 /* 4. Material effect class helpers */
-.ks-material-button {
+.app-material-button {
     position: relative;
     overflow: hidden;
 }
-.ks-wave-effect {
+.app-wave-effect {
     display: block;
     position: absolute;
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -567,51 +567,51 @@
 
 /* 5. Mobile fixer styles */
 @media (max-width: 768px) {
-    .ks-header-submenu.ks-notify-list {
+    .app-header-submenu.app-notify-list {
         width: 300px;
     }
-    .ks-logo .ks-logo-mobile {
+    .app-logo .app-logo-mobile {
         display: block;
         position: relative;
         top: 4px;
     }
-    .ks-logo .ks-logo-desktop {
+    .app-logo .app-logo-desktop {
         display: none;
     }
-    .ks-header-menu {
+    .app-header-menu {
         display: none;
     }
-    .ks-hide-on-mobile {
+    .app-hide-on-mobile {
         display: none;
     }
-    .ks-header-right .ks-header-navigation .ks-header-submenu.ks-notify-list {
+    .app-header-right .app-header-navigation .app-header-submenu.app-notify-list {
         right: -60px;
     }
 }
 
 /* 6. Easy color change with CSS */
 /* open the section below to see the color change */
-.ks-header, .ks-search-bar {
+.app-header, .app-search-bar {
     background: #1488CC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.ks-notify-tab .nav li a.active {
+.app-notify-tab .nav li a.active {
     border-color: #155799;
     color: #155799;
 }
-.ks-notify-tab .nav li a:hover {
+.app-notify-tab .nav li a:hover {
     border-color: #155799;
 }
-.ks-sidebar-navi ul li.show > a, .ks-header a {
+.app-sidebar-navi ul li.show > a, .app-header a {
     color: #155799;
 }
-.ks-sidebar-wrapper::-webkit-scrollbar-thumb {
+.app-sidebar-wrapper::-webkit-scrollbar-thumb {
     background: #155799;
 }
 
 /* 7. And your code starts here */
-.ks-wrapper {
+.app-wrapper {
     padding-top: 80px;
     -webkit-transition: margin 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
     -moz-transition: margin 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
